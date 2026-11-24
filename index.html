@@ -94,6 +94,11 @@ section{padding:72px 0}
 .selo{margin-top:22px;display:flex;gap:14px;align-items:flex-start;padding:16px 18px;border-radius:10px;background:var(--soft);font-size:.95rem}
 .selo b{font-family:var(--fd)}
 
+.appband{padding:40px 0}
+.appbox{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.appbox img{border-radius:16px;flex:none}
+.apptxt{flex:1;min-width:240px;display:grid;gap:6px}.apptxt h2{font-size:clamp(1.3rem,2.8vw,1.7rem);font-weight:800}.apptxt p{color:var(--muted)}
+.appbtns{display:flex;gap:10px;flex-wrap:wrap}
 /* coordenação */
 .coord{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:start}
 .foto{border-radius:14px;overflow:hidden;aspect-ratio:4/5;background:var(--soft)}
@@ -193,6 +198,13 @@ footer a{color:var(--green)}
   </div>
 </section>
 
+<section class="appband" id="app">
+  <div class="wrap appbox">
+    <img src="https://aluno.formacaodesindicos.com.br/img/app/icon-192.png" alt="" width="72" height="72">
+    <div class="apptxt"><span class="eyebrow">Para os alunos</span><h2>Área do aluno no celular, como app</h2><p>Instale em menos de 1 minuto, sem loja de aplicativos. Veja o passo a passo com imagens:</p></div>
+    <div class="appbtns"><a class="btn btn-green" href="https://aluno.formacaodesindicos.com.br/instalar.html#ios">Tutorial iPhone</a><a class="btn btn-green" href="https://aluno.formacaodesindicos.com.br/instalar.html#android">Tutorial Android</a></div>
+  </div>
+</section>
 <section class="curso" id="curso">
   <div class="wrap">
     <div class="head">
@@ -251,7 +263,7 @@ footer a{color:var(--green)}
 <footer>
   <div class="wrap">
     <a class="logo" href="./"><img src="img/selo-fs.png" alt=""><span><b>Formação de Síndicos</b><small>Profissionais · Prof. Paulo Cesar</small></span></a>
-    <p>Dúvidas sobre matrícula e turmas: <a href="mailto:formacaodesindicos@gmail.com">formacaodesindicos@gmail.com</a> · WhatsApp <a href="https://wa.me/5541999298991">(41) 99929-8991</a> · <a href="https://instagram.com/sindicopaulocesar">@sindicopaulocesar</a></p>
+    <p>Dúvidas sobre matrícula e turmas: <a href="mailto:formacaodesindicos@gmail.com">formacaodesindicos@gmail.com</a> · WhatsApp <a href="https://wa.me/5541999298991">(41) 99929-8991</a> · <a href="https://instagram.com/sindicopaulocesar">@sindicopaulocesar</a> · <a href="https://aluno.formacaodesindicos.com.br/instalar.html">Instalar o app do aluno</a></p>
   </div>
 </footer>
 <script>
