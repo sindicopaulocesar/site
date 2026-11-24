@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Formação de Síndicos Profissionais</title>
+<meta name="description" content="Formação de Síndicos Profissionais: 80 horas, 6 módulos e 24 aulas, com certificado de extensão da ESIC Internacional. Turmas no Rio de Janeiro, São Paulo, Curitiba e Porto Alegre.">
+<link rel="icon" href="img/selo-fs.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Manrope:wght@400;600;700&display=swap">
+<style>
+:root{--bg:#F6F7F6;--surface:#fff;--ink:#16191B;--muted:#5B6461;--line:#E0E4E2;--soft:#ECEFEE;
+  --dark:#16181B;--dark-2:#1F2327;--green:#3DDC97;--green-ink:#13795B;--on-green:#062B1A;
+  --fd:"Sora","Segoe UI",Arial,sans-serif;--fb:"Manrope","Segoe UI",Roboto,Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1011;--surface:#16191B;--ink:#E8ECEA;--muted:#9BA6A2;--line:#2A2F33;--soft:#1D2124;--green-ink:#3DDC97}}
+:root[data-theme="dark"]{--bg:#0E1011;--surface:#16191B;--ink:#E8ECEA;--muted:#9BA6A2;--line:#2A2F33;--soft:#1D2124;--green-ink:#3DDC97}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--fb);font-size:16px;line-height:1.55}
+h1,h2,h3{font-family:var(--fd);line-height:1.12;margin:0;letter-spacing:-.015em;text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left,0px))}
+.eyebrow{font-family:var(--fd);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--green-ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:8px;padding:13px 20px;font-weight:700;text-decoration:none;font-size:.98rem;border:0;cursor:pointer}
+.btn-green{background:var(--green);color:var(--on-green)}
+.btn-green:hover{filter:brightness(1.06)}
+.btn-line{border:1.5px solid rgba(255,255,255,.28);color:#fff}
+.btn-line:hover{border-color:var(--green)}
+:focus-visible{outline:3px solid var(--green);outline-offset:2px;border-radius:4px}
+
+/* topo */
+.top{background:var(--dark);color:#fff;position:relative;overflow:hidden}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:18px;padding-bottom:18px;position:relative;z-index:2}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo img{width:46px;height:46px}
+.logo b{display:block;font-family:var(--fd);font-weight:700;font-size:1rem;line-height:1.15}
+.logo small{display:block;color:#A9B3AF;font-size:.8rem}
+.bar .btn{padding:10px 16px;font-size:.92rem}
+.hero{position:relative;z-index:2;padding-top:56px;padding-bottom:64px;display:grid;gap:28px;max-width:640px}
+.hero h1{font-size:clamp(2.1rem,5.4vw,3.6rem);font-weight:800}
+.hero h1 span{color:var(--green)}
+.hero p.lead{font-size:1.1rem;color:#C9D1CE;max-width:52ch}
+.facts{display:flex;flex-wrap:wrap;gap:14px 36px}
+.facts b{display:block;font-family:var(--fd);font-size:1.9rem;color:var(--green);line-height:1.1}
+.facts span{color:#C9D1CE;font-size:.92rem}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.facade{position:absolute;right:0;bottom:0;width:40%;height:86%;display:grid;grid-template-columns:repeat(7,1fr);grid-auto-rows:34px;gap:14px 12px;padding:0 28px;align-content:end;pointer-events:none;
+  -webkit-mask:linear-gradient(to left,#000 40%,transparent);mask:linear-gradient(to left,#000 40%,transparent)}
+.facade i{background:rgba(255,255,255,.06);border-radius:2px}
+.facade i.on{background:var(--green);opacity:.7}
+.facade i.dim{background:rgba(61,220,151,.22)}
+
+section{padding:72px 0}
+.head{display:grid;gap:10px;margin-bottom:28px;max-width:720px}
+.head h2{font-size:clamp(1.6rem,3.4vw,2.2rem);font-weight:800}
+.head p{color:var(--muted)}
+
+/* cidades */
+.cidades{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.cid{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--line);border-radius:10px;padding:22px 20px;display:flex;flex-direction:column;gap:6px}
+.cid.ativa{border-top-color:var(--green)}
+.cid h3{font-size:1.3rem;font-weight:700}
+.cid .parc{color:var(--muted);font-size:.93rem}
+.cid .tag{align-self:flex-start;font-size:.78rem;font-weight:700;border-radius:999px;padding:3px 10px;background:var(--soft);color:var(--muted);margin-top:2px}
+.cid.ativa .tag{background:rgba(61,220,151,.18);color:var(--green-ink)}
+.cid ul{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:4px;font-size:.92rem;color:var(--muted)}
+.cid .btn{margin-top:auto;width:100%}
+.cid .sp{flex:1;min-height:14px}
+.cid .btn-out{border:1.5px solid var(--line);color:var(--ink);background:transparent}
+.cid .btn-out:hover{border-color:var(--green-ink)}
+
+/* curso */
+.curso{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.mods{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;counter-reset:m}
+.mod{border:1px solid var(--line);border-radius:10px;padding:18px 18px 16px;background:var(--bg)}
+.mod .n{font-family:var(--fd);font-weight:800;color:var(--green-ink);font-size:.85rem;letter-spacing:.06em}
+.mod h3{font-size:1.05rem;margin:4px 0 8px}
+.mod p{color:var(--muted);font-size:.92rem}
+.selo{margin-top:22px;display:flex;gap:14px;align-items:flex-start;padding:16px 18px;border-radius:10px;background:var(--soft);font-size:.95rem}
+.selo b{font-family:var(--fd)}
+
+/* coordenação */
+.coord{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:start}
+.foto{border-radius:14px;overflow:hidden;aspect-ratio:4/5;background:var(--soft)}
+.foto img{width:100%;height:100%;object-fit:cover;display:block}
+.coord h2{font-size:clamp(1.7rem,3.6vw,2.4rem);font-weight:800}
+.coord .cargo{color:var(--green-ink);font-weight:700;margin:8px 0 18px}
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 20px}.nums div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 12px 10px}.nums b{display:block;font-family:var(--fd);font-size:1.45rem;color:var(--green-ink);line-height:1.1}.nums b small{font-size:.62em;font-weight:700}.nums span{display:block;font-size:.8rem;color:var(--muted);line-height:1.3;margin-top:4px}.insta{display:inline-block;margin-top:18px;color:var(--green-ink);font-weight:700}
+.coord .bio{display:grid;gap:12px;color:var(--muted)}
+.coord ul{margin:18px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+.coord li{display:flex;gap:10px}
+.coord li:before{content:"";flex:none;width:8px;height:8px;border-radius:2px;background:var(--green);margin-top:9px}
+.livros{margin-top:56px;background:var(--dark);color:#fff;border-radius:14px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;align-items:center}
+.livros .txt{padding:40px;display:grid;gap:14px}
+.livros h3{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:800}
+.livros h3 span{color:var(--green)}
+.livros .lista{color:#C9D1CE;display:grid;gap:4px}
+.livros .lista small{color:#8E9894}
+.livros img{width:100%;display:block}
+.outros{margin-top:18px;color:var(--muted);font-size:.93rem}
+
+footer{background:var(--dark);color:#C9D1CE;padding:40px 0 calc(40px + env(safe-area-inset-bottom,0px))}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px 40px;justify-content:space-between;align-items:center}
+footer a{color:var(--green)}
+
+@media (max-width:960px){.cidades{grid-template-columns:repeat(2,1fr)}.mods{grid-template-columns:repeat(2,1fr)}.coord{grid-template-columns:1fr;gap:28px}.foto{max-width:420px}}
+@media (max-width:640px){.nums{grid-template-columns:repeat(2,1fr)}
+  .bar .btn{display:none}.hero{padding-top:28px;padding-bottom:44px}.facade{display:none}.facts{display:grid;grid-template-columns:repeat(4,auto);gap:10px 18px}.facts b{font-size:1.5rem}.ctas .btn{width:100%}
+  .cidades,.mods{grid-template-columns:1fr}section{padding:52px 0}
+  .livros{grid-template-columns:1fr}.livros .txt{padding:28px 22px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="facade" aria-hidden="true" id="facade"></div>
+  <div class="wrap bar">
+    <a class="logo" href="./"><img src="img/selo-fs.png" alt=""><span><b>Formação de Síndicos</b><small>Profissionais · Prof. Paulo Cesar</small></span></a>
+    <a class="btn btn-green" href="#turmas">Área do aluno</a>
+  </div>
+  <div class="wrap"><div class="hero">
+    <span class="eyebrow" style="color:var(--green)">Extensão universitária · certificado ESIC Internacional</span>
+    <h1>O síndico que reduz riscos e <span>sabe defender o valor</span> do seu trabalho.</h1>
+    <p class="lead">Uma formação prática, com base legal e ferramentas prontas para usar no condomínio. Turmas presenciais com parceiros em quatro cidades.</p>
+    <div class="facts">
+      <div><b>80h</b><span>certificadas</span></div>
+      <div><b>6</b><span>módulos</span></div>
+      <div><b>24</b><span>aulas</span></div>
+      <div><b>48</b><span>ferramentas</span></div>
+    </div>
+    <div class="ctas"><a class="btn btn-green" href="#turmas">Entrar na área do aluno</a><a class="btn btn-line" href="#coordenacao">Conheça o coordenador</a></div>
+  </div></div>
+</header>
+
+<main>
+<section id="turmas">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Área do aluno</span>
+      <h2>Escolha a sua turma</h2>
+      <p>Entre com o e-mail que você informou na matrícula. No primeiro acesso, clique em "Criar minha senha".</p>
+    </div>
+    <div class="cidades">
+      <article class="cid ativa">
+        <h3>Rio de Janeiro</h3>
+        <p class="parc">Parceiro: Centrimóveis</p>
+        <span class="tag">Início em 24/02/2027</span>
+        <ul><li>Quartas e quintas, 18h30 às 22h</li><li>Fevereiro a junho de 2027</li></ul>
+        <div class="sp"></div>
+        <a class="btn btn-green" href="https://aluno.formacaodesindicos.com.br/entrar.html?turma=rj-2027">Entrar na área do aluno</a>
+      </article>
+      <article class="cid">
+        <h3>São Paulo</h3>
+        <p class="parc">Parceiro: Condo Hub</p>
+        <span class="tag">Turma em breve</span>
+        <ul><li>Datas em definição</li></ul>
+        <div class="sp"></div>
+        <a class="btn btn-out" href="https://aluno.formacaodesindicos.com.br/entrar.html?turma=sp-2027">Entrar na área do aluno</a>
+      </article>
+      <article class="cid">
+        <h3>Curitiba</h3>
+        <p class="parc">Parceiro a definir</p>
+        <span class="tag">Turma em breve</span>
+        <ul><li>Datas em definição</li></ul>
+        <div class="sp"></div>
+        <a class="btn btn-out" href="https://aluno.formacaodesindicos.com.br/entrar.html?turma=cwb-2027">Entrar na área do aluno</a>
+      </article>
+      <article class="cid">
+        <h3>Porto Alegre</h3>
+        <p class="parc">Parceiro a definir</p>
+        <span class="tag">Turma em breve</span>
+        <ul><li>Datas em definição</li></ul>
+        <div class="sp"></div>
+        <a class="btn btn-out" href="https://aluno.formacaodesindicos.com.br/entrar.html?turma=poa-2027">Entrar na área do aluno</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="curso" id="curso">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">O curso</span>
+      <h2>Seis módulos, do primeiro dia à carreira</h2>
+      <p>Cada módulo tem quatro aulas, com prática, base legal e ferramentas do Kit do Síndico. Ao longo do curso, o aluno monta um Plano de Gestão real para um condomínio.</p>
+    </div>
+    <div class="mods">
+      <div class="mod"><span class="n">MÓDULO I</span><h3>Primeiros Passos na Sindicatura</h3><p>Papel do síndico, transição, comunicação, implantação de condomínios e contratos.</p></div>
+      <div class="mod"><span class="n">MÓDULO II</span><h3>Direito e Governança</h3><p>Direito condominial, conselho e administradora, assembleias, notificações e multas.</p></div>
+      <div class="mod"><span class="n">MÓDULO III</span><h3>Gestão Financeira e Tributária</h3><p>Orçamento, fundo de reserva, prestação de contas, inadimplência, folha e tributos.</p></div>
+      <div class="mod"><span class="n">MÓDULO IV</span><h3>Manutenção, Engenharia e Segurança</h3><p>Plano de manutenção, autovistoria, obras, sistemas críticos e seguro.</p></div>
+      <div class="mod"><span class="n">MÓDULO V</span><h3>Convivência e Pessoas</h3><p>Conflitos e mediação, equipe e terceirização, locação por temporada e acessibilidade.</p></div>
+      <div class="mod"><span class="n">MÓDULO VI</span><h3>Inovação, Tecnologia e Carreira</h3><p>Inteligência artificial, tecnologia e LGPD, carreira do síndico profissional e simulação de assembleia.</p></div>
+    </div>
+    <div class="selo"><span>🎓</span><p><b>Certificado de extensão universitária de 80 horas</b>, emitido pela ESIC Internacional, instituição credenciada pelo MEC, para quem tem frequência mínima de 75% e média 7,0 ou mais.</p></div>
+  </div>
+</section>
+
+<section id="coordenacao">
+  <div class="wrap">
+    <div class="coord">
+      <div class="foto"><img src="img/professor.jpg" alt="Prof. Paulo Cesar, coordenador do curso"></div>
+      <div>
+        <span class="eyebrow">Coordenação do curso</span>
+        <h2>Prof. Paulo Cesar</h2>
+        <p class="cargo">Administrador · Síndico Profissional · Professor Universitário · Escritor · Palestrante</p>
+        <div class="nums">
+          <div><b>15+</b><span>anos de docência na graduação e pós</span></div>
+          <div><b><small>mais de</small> 2.500</b><span>alunos formados</span></div>
+          <div><b>20+</b><span>estados com palestras</span></div>
+          <div><b>Mestre</b><span>em Planejamento e Governança (UTFPR)</span></div>
+        </div>
+        <div class="bio">
+          <p>Administrador, mestre em Planejamento e Governança pela Universidade Tecnológica Federal do Paraná (UTFPR), com MBA em Gestão de Negócios e mais de 15 anos de docência em graduação e pós-graduação em Administração, Economia e Contabilidade.</p>
+          <p>Professor universitário, síndico profissional, consultor, palestrante e escritor, atua na formação de profissionais para o mercado condominial, unindo conhecimento acadêmico, experiência prática e visão empreendedora. Já formou mais de 2.500 alunos em diferentes regiões do Brasil, em cursos, formações executivas, imersões e palestras, e coordena programas de MBA e de formação executiva voltados à gestão condominial.</p>
+          <p>É idealizador e apresentador da <b>Live do PC</b>, encontro semanal que reúne em média 100 síndicos para discutir desafios, tendências e problemas reais da gestão condominial. Como palestrante, já esteve em eventos e formações em mais de 20 estados, falando de gestão condominial, empreendedorismo, inovação, liderança, estratégia e governança.</p>
+          <p>Autor de seis livros, dois deles sobre gestão condominial.</p>
+        </div>
+        <a class="insta" href="https://instagram.com/sindicopaulocesar" target="_blank" rel="noopener">Instagram: @sindicopaulocesar</a>
+      </div>
+    </div>
+    <div class="livros">
+      <div class="txt">
+        <span class="eyebrow" style="color:var(--green)">Livros do professor</span>
+        <h3>Gestão condominial <span>na prática</span></h3>
+        <div class="lista"><span>O Síndico Empreendedor</span><span>O Desafio de Instalar um Condomínio</span><small>Editora Bonijuris</small></div>
+      </div>
+      <img src="img/livros.jpg" alt="Capas dos livros O Síndico Empreendedor e O Desafio de Instalar um Condomínio">
+    </div>
+    <p class="outros">Outros livros do autor: Logística de Venda Direta; Estratégias de Marketing de Rede e de Vendas Diretas; Empreendedorismo e Capacidade Inovadora no Setor Público; Políticas Públicas e Governança na Atualidade.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="logo" href="./"><img src="img/selo-fs.png" alt=""><span><b>Formação de Síndicos</b><small>Profissionais · Prof. Paulo Cesar</small></span></a>
+    <p>Dúvidas sobre matrícula e turmas: <a href="mailto:formacaodesindicos@gmail.com">formacaodesindicos@gmail.com</a> · WhatsApp <a href="https://wa.me/5541999298991">(41) 99929-8991</a> · <a href="https://instagram.com/sindicopaulocesar">@sindicopaulocesar</a></p>
+  </div>
+</footer>
+<script>
+(function(){var s=3,h='';for(var i=0;i<84;i++){s=(s*9301+49297)%233280;var r=s/233280;h+='<i class="'+(r>.82?'on':r>.62?'dim':'')+'"></i>';}document.getElementById('facade').innerHTML=h;})();
+</script>
+</body>
+</html>
